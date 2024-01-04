@@ -11,7 +11,8 @@ function Dashboard() {
           </h1>
           <p className="mt-6 text-xl leading-8 text-gray-600">
             A React app to show CART feature with implementation of
-            Authentication, Authorization and Session management using React, Redux Toolkit and Firebase.
+            Authentication, Authorization and Session management using React,
+            Redux Toolkit and Firebase.
           </p>
           <div className="mt-3 flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0">
             <button
@@ -43,7 +44,10 @@ function Dashboard() {
               type="button"
               className="rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-600/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
             >
-              <Link to="https://github.com/pktherock/BuyBusy-1" target="_blank">
+              <Link
+                to="https://github.com/pktherock/React-Redux-Cart-App"
+                target="_blank"
+              >
                 View Code on GitHub
               </Link>
             </button>
